@@ -15,6 +15,7 @@ Launching An Instance
 For example:
 ----------
 export AWS_SECRET_ACCESS_KEY=AaBbCcDdEeFGgHhIiJjKkLlMmNnOoPpQqRrSsTtU
+
 export AWS_ACCESS_KEY_ID=ABCDEFG1234567890123
 
 Running the script
