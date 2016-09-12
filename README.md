@@ -26,7 +26,7 @@ Running the script
     - script.sh -[ Checks if any mount points are >90% full, free memory is <5% and alerts through email ]
 
 - Making sure the above necessary steps are followed, run the command :
-      " ansible-playbook site.yml "
+      $ ansible-playbook site.yml 
 
 How does the script work
 --------------------
