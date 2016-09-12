@@ -39,5 +39,16 @@ How does the script work
      - Port 5432 ( postgres )
 3. Launches Instance parsing in the environment variables from vars.yml ; accepts the key pair, assigns public_IP and allots the region to itself.
 4. Instance is added to host group where public_IP and group name= data base is taken.
+5. Parsing database as host and user=ubuntu, postgres is automatically installed with the code written.
+
+Script for monitoring mounts 
+--------------------
+- Scipt checks the disk space and if the memory is greater than 90% full.
+- Checks if free memory is less than 5% of total memory.
+- If the conditions are met , it alerts a mail to mentioned email.
+- Also , cron job is set for every 5 minutes.
+
+
+
  
 
