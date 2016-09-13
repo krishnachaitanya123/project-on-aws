@@ -1,0 +1,5 @@
+key_name: <keyname>
+instance_type: t2.micro
+security_group: webserver
+image: ami-d732f0b7
+region: us-west-2
