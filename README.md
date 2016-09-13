@@ -48,6 +48,13 @@ Script for monitoring mounts
 - If the conditions are met , it alerts a mail to mentioned email.
 - Also , cron job is set for every 5 minutes.
 
+Setting up VPN
+--------------------
+- Install openvpn client locally and following commands should be run after ssh'ing to the instance . 
+- Followed by the commands , after installation edit the openvpn key file and add the port and proto tcp client details ( mentioned in file )
+- Ensure you have opened ports for 1194 similar to the one like port 80, 5432, etc
+- ssh to 10.4.0.2 and see if the ip is open
+
 
 
  
