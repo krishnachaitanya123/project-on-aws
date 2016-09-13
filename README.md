@@ -43,6 +43,10 @@ How does the script work
 
 Script for monitoring mounts 
 --------------------
+Before running the script :
+1. Chane the email for alert notifications.
+2. Set the path of your script to run the cron job .
+
 - Scipt checks the disk space and if the memory is greater than 90% full.
 - Checks if free memory is less than 5% of total memory.
 - If the conditions are met , it alerts a mail to mentioned email.
