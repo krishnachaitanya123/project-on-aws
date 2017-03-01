@@ -7,7 +7,7 @@
     - include_vars: vars.yml
     - name: Create security group
       ec2_group:
-       name: webserver
+       name: application
        description: "Webserver security group"
        region: "{{ region }}"
        rules:
